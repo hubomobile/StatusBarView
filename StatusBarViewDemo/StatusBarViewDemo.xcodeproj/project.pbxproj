@@ -13,19 +13,8 @@
 		86E49BF71B847BF400DF33D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E49BF51B847BF400DF33D6 /* Main.storyboard */; };
 		86E49BF91B847BF400DF33D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E49BF81B847BF400DF33D6 /* Images.xcassets */; };
 		86E49BFC1B847BF400DF33D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86E49BFA1B847BF400DF33D6 /* LaunchScreen.xib */; };
-		86E49C081B847BF400DF33D6 /* StatusBarViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E49C071B847BF400DF33D6 /* StatusBarViewDemoTests.m */; };
 		86E49C141B847C5700DF33D6 /* UIView+StatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E49C131B847C5700DF33D6 /* UIView+StatusBarView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		86E49C021B847BF400DF33D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 86E49BE01B847BF400DF33D6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 86E49BE71B847BF400DF33D6;
-			remoteInfo = StatusBarViewDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		86E49BE81B847BF400DF33D6 /* StatusBarViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBarViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,7 +27,6 @@
 		86E49BF61B847BF400DF33D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86E49BF81B847BF400DF33D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		86E49BFB1B847BF400DF33D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		86E49C011B847BF400DF33D6 /* StatusBarViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBarViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E49C061B847BF400DF33D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86E49C071B847BF400DF33D6 /* StatusBarViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusBarViewDemoTests.m; sourceTree = "<group>"; };
 		86E49C121B847C5700DF33D6 /* UIView+StatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+StatusBarView.h"; sourceTree = "<group>"; };
@@ -47,13 +35,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		86E49BE51B847BF400DF33D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		86E49BFE1B847BF400DF33D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				86E49BE81B847BF400DF33D6 /* StatusBarViewDemo.app */,
-				86E49C011B847BF400DF33D6 /* StatusBarViewDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,24 +132,6 @@
 			productReference = 86E49BE81B847BF400DF33D6 /* StatusBarViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		86E49C001B847BF400DF33D6 /* StatusBarViewDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 86E49C0E1B847BF400DF33D6 /* Build configuration list for PBXNativeTarget "StatusBarViewDemoTests" */;
-			buildPhases = (
-				86E49BFD1B847BF400DF33D6 /* Sources */,
-				86E49BFE1B847BF400DF33D6 /* Frameworks */,
-				86E49BFF1B847BF400DF33D6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				86E49C031B847BF400DF33D6 /* PBXTargetDependency */,
-			);
-			name = StatusBarViewDemoTests;
-			productName = StatusBarViewDemoTests;
-			productReference = 86E49C011B847BF400DF33D6 /* StatusBarViewDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -181,10 +143,6 @@
 				TargetAttributes = {
 					86E49BE71B847BF400DF33D6 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					86E49C001B847BF400DF33D6 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 86E49BE71B847BF400DF33D6;
 					};
 				};
 			};
@@ -202,7 +160,6 @@
 			projectRoot = "";
 			targets = (
 				86E49BE71B847BF400DF33D6 /* StatusBarViewDemo */,
-				86E49C001B847BF400DF33D6 /* StatusBarViewDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -215,13 +172,6 @@
 				86E49BF71B847BF400DF33D6 /* Main.storyboard in Resources */,
 				86E49BFC1B847BF400DF33D6 /* LaunchScreen.xib in Resources */,
 				86E49BF91B847BF400DF33D6 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		86E49BFF1B847BF400DF33D6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,23 +189,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86E49BFD1B847BF400DF33D6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86E49C081B847BF400DF33D6 /* StatusBarViewDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		86E49C031B847BF400DF33D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 86E49BE71B847BF400DF33D6 /* StatusBarViewDemo */;
-			targetProxy = 86E49C021B847BF400DF33D6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		86E49BF51B847BF400DF33D6 /* Main.storyboard */ = {
@@ -379,40 +313,6 @@
 			};
 			name = Release;
 		};
-		86E49C0F1B847BF400DF33D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = StatusBarViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StatusBarViewDemo.app/StatusBarViewDemo";
-			};
-			name = Debug;
-		};
-		86E49C101B847BF400DF33D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = StatusBarViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StatusBarViewDemo.app/StatusBarViewDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -430,14 +330,6 @@
 			buildConfigurations = (
 				86E49C0C1B847BF400DF33D6 /* Debug */,
 				86E49C0D1B847BF400DF33D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		86E49C0E1B847BF400DF33D6 /* Build configuration list for PBXNativeTarget "StatusBarViewDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				86E49C0F1B847BF400DF33D6 /* Debug */,
-				86E49C101B847BF400DF33D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

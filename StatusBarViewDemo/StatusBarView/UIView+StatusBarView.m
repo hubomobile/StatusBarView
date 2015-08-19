@@ -3,7 +3,7 @@
 //  StatusBarView
 //
 //  Created by hubo on 15/8/7.
-//  Copyright (c) 2015年 netease. All rights reserved.
+//  Copyright (c) 2015年 hubo. All rights reserved.
 //
 
 #import "UIView+StatusBarView.h"
