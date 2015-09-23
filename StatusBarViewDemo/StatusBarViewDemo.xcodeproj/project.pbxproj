@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86A060AC1B85606200A579DC /* UIView+StatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A060AB1B85606200A579DC /* UIView+StatusBarView.m */; };
+		8619C14A1BB24A3A0005B164 /* UIView+StatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8619C1491BB24A3A0005B164 /* UIView+StatusBarView.m */; settings = {ASSET_TAGS = (); }; };
 		86E49BEE1B847BF400DF33D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E49BED1B847BF400DF33D6 /* main.m */; };
 		86E49BF11B847BF400DF33D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E49BF01B847BF400DF33D6 /* AppDelegate.m */; };
 		86E49BF41B847BF400DF33D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E49BF31B847BF400DF33D6 /* ViewController.m */; };
@@ -17,8 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		86A060AA1B85606200A579DC /* UIView+StatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+StatusBarView.h"; sourceTree = "<group>"; };
-		86A060AB1B85606200A579DC /* UIView+StatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+StatusBarView.m"; sourceTree = "<group>"; };
+		8619C1481BB24A3A0005B164 /* UIView+StatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+StatusBarView.h"; sourceTree = "<group>"; };
+		8619C1491BB24A3A0005B164 /* UIView+StatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+StatusBarView.m"; sourceTree = "<group>"; };
 		86E49BE81B847BF400DF33D6 /* StatusBarViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBarViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E49BEC1B847BF400DF33D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86E49BED1B847BF400DF33D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,11 +44,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		86A060A91B85606200A579DC /* StatusBarView */ = {
+		8619C1471BB24A3A0005B164 /* StatusBarView */ = {
 			isa = PBXGroup;
 			children = (
-				86A060AA1B85606200A579DC /* UIView+StatusBarView.h */,
-				86A060AB1B85606200A579DC /* UIView+StatusBarView.m */,
+				8619C1481BB24A3A0005B164 /* UIView+StatusBarView.h */,
+				8619C1491BB24A3A0005B164 /* UIView+StatusBarView.m */,
 			);
 			path = StatusBarView;
 			sourceTree = "<group>";
@@ -56,7 +56,7 @@
 		86E49BDF1B847BF400DF33D6 = {
 			isa = PBXGroup;
 			children = (
-				86A060A91B85606200A579DC /* StatusBarView */,
+				8619C1471BB24A3A0005B164 /* StatusBarView */,
 				86E49BEA1B847BF400DF33D6 /* StatusBarViewDemo */,
 				86E49C041B847BF400DF33D6 /* StatusBarViewDemoTests */,
 				86E49BE91B847BF400DF33D6 /* Products */,
@@ -183,7 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86E49BF41B847BF400DF33D6 /* ViewController.m in Sources */,
-				86A060AC1B85606200A579DC /* UIView+StatusBarView.m in Sources */,
+				8619C14A1BB24A3A0005B164 /* UIView+StatusBarView.m in Sources */,
 				86E49BF11B847BF400DF33D6 /* AppDelegate.m in Sources */,
 				86E49BEE1B847BF400DF33D6 /* main.m in Sources */,
 			);
